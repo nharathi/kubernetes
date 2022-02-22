@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+Kind: pod
+metadata:
+   name: myfirst-pod
+spec:
+  containers:
+     - name: ngnix-container
+       image:ngnix:1.21.1cd
